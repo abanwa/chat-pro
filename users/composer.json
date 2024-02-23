@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src"
+        }
+    },
+    "require": {
+        "dompdf/dompdf": "^2.0",
+        "cboden/ratchet": "v0.4"
+    }
+}
