@@ -501,7 +501,7 @@ $user_data = $user_object->get_all_online_users();
   		<script>
   			$(document).ready(function(){
 
-  				var conn = new WebSocket('wss://localhost:8080');
+  				var conn = new WebSocket('ws://localhost:8080');
 
 
   				// ****** scrolldown function ******
